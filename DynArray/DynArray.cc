@@ -64,3 +64,20 @@ bool operator==(const DynArray & lhs, const DynArray & rhs)
 	}
 	return true;
 }
+
+void DynArray::push(const int & val)
+{
+	
+	if (m_size == m_capacity) {
+
+		int *aux_data;
+		
+		aux_data = m_data;
+		
+		
+
+	}
+
+	else 
+
+}
