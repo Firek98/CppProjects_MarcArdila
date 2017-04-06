@@ -75,7 +75,6 @@ void DynArray::push(const int & val)
 		aux_data = m_data;
 		
 		
-
 	}
 
 	else 
