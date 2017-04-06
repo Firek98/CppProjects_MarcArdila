@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynArray", "DynArray\DynArr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ejerciciosyapuntes", "Ejerciciosyapuntes\Ejerciciosyapuntes.vcxproj", "{E45B8377-763A-493C-AC72-D18476E5F7A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayerRanking", "PlayerRanking\PlayerRanking.vcxproj", "{71780775-686F-4349-BE1F-CD94F2A760BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E45B8377-763A-493C-AC72-D18476E5F7A0}.Release|x64.Build.0 = Release|x64
 		{E45B8377-763A-493C-AC72-D18476E5F7A0}.Release|x86.ActiveCfg = Release|Win32
 		{E45B8377-763A-493C-AC72-D18476E5F7A0}.Release|x86.Build.0 = Release|Win32
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Debug|x64.ActiveCfg = Debug|x64
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Debug|x64.Build.0 = Debug|x64
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Debug|x86.Build.0 = Debug|Win32
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Release|x64.ActiveCfg = Release|x64
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Release|x64.Build.0 = Release|x64
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Release|x86.ActiveCfg = Release|Win32
+		{71780775-686F-4349-BE1F-CD94F2A760BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
