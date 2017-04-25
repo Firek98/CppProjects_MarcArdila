@@ -1,5 +1,82 @@
 #include <vector>
+#include <iostream>
 
+
+// 2 - Implementar las siguientes funciones haciendo uso de vector
+
+void AddVectors(std::vector<int>v1, std::vector<int>v2) {
+
+	if (v1.size() == v2.size())
+	{
+		std::vector<int>v3(v1.size());
+
+		for (int i = 0; i < v2.size(); i++) {
+
+			int aux = v1[i] + v2[i];
+
+			v3[i] = aux;
+			std::cout << v3[i] << std::endl;
+		}
+	}
+}
+
+void ConcatVectors(std::vector<int>v1, std::vector<int>v2) {
+
+
+
+
+}
+
+void ShiftRight(std::vector<int>v1) {
+
+	v1.pop_back();
+	v1.insert(v1.begin(), rand() % 100);
+
+	for (int j = 0; j < v1.size(); j++) {
+
+		std::cout << v1[j] << ' ';
+
+	}
+}
+
+void RotateLeft(std::vector<int>v1) {
+
+	v1.push_back(v1[0]);
+	v1.erase(v1.begin());
+
+	for (int i = 0; i < v1.size(); i++) {
+
+		std::cout << v1[i] << ' ';
+	}
+}
+
+void SearchAdjacent(std::vector<int>v1) {
+
+	int counter = 0;
+	for (int i = 0; i < v1.size() - 1; i++) {
+
+		if (v1[i] == v1[i + 1]) {
+
+			counter++;
+		}
+
+		if (counter == 3) {
+
+			v1.erase[i];
+			v1.erase[i - 1];
+			v1.erase[i - 2];
+
+			v1.insert(v1.begin(), rand() % 100);
+			v1.insert(v1.begin(), rand() % 100);
+			v1.insert(v1.begin(), rand() % 100);
+
+			counter = 0;
+		}
+	}
+
+	
+
+}
 void main() {
 
 	// 1 - Declarar e inicializar los siguientes conjuntos de elementos haciendo uso del contenedor vector de la librería STL.
@@ -39,7 +116,9 @@ void main() {
 	v6[0].name = "Gertrudiz";
 	v6[0].fecha = 23;
 	v6[0].DNI = 349458;
-
+	
+	
+	std::vector<int>v10({ 1, 2, 4, 6 , 3 });
+	ShiftRight(v10);
+	RotateLeft(v10);
 }
-
-// 2 - Implementar las siguientes funciones haciendo uso de vector
