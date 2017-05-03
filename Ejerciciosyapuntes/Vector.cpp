@@ -1,6 +1,6 @@
 #include <vector>
 #include <iostream>
-
+/*
 
 // 2 - Implementar las siguientes funciones haciendo uso de vector
 
@@ -77,6 +77,7 @@ void SearchAdjacent(std::vector<int>v1) {
 	
 
 }
+
 void main() {
 
 	// 1 - Declarar e inicializar los siguientes conjuntos de elementos haciendo uso del contenedor vector de la librería STL.
@@ -121,4 +122,4 @@ void main() {
 	std::vector<int>v10({ 1, 2, 4, 6 , 3 });
 	ShiftRight(v10);
 	RotateLeft(v10);
-}
+}*/
