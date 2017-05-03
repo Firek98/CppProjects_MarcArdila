@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 
+
 //EJERCICIO 1 - Programa que lee números indicados por el usuario y los almacena en una pila. Si dice z, se elimina la última acción realizada y si pulsa salir, sale del programa.
+
 
 void Ejercicio1() {
 
@@ -41,7 +43,6 @@ void Ejercicio1() {
 }
 
 //Ejercicio 2 - Con una pila {4,51,6,7,39}
-
 void Ejercicio2() 
 {
 	// 1) Imprimirla
@@ -93,6 +94,9 @@ void Ejercicio2()
 		std::cout << pila4.top() << " ";
 		pila4.pop();
 	}
+
+
+
 }
 
 void main() 
