@@ -3,7 +3,7 @@
 #include <string>
 
 //EJERCICIO 1 - Programa que lee números indicados por el usuario y los almacena en una pila. Si dice z, se elimina la última acción realizada y si pulsa salir, sale del programa.
-/*
+
 void Ejercicio1() {
 
 	std::stack<int> pila;
@@ -98,4 +98,4 @@ void Ejercicio2()
 void main() 
 {
 	Ejercicio2();
-}*/
+}
