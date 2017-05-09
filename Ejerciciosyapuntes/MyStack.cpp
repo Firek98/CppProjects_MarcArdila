@@ -26,7 +26,10 @@ void MyStack::pop()
 void MyStack::push(int elem)
 {
 	node *t;
-	t = new node();
+	t = new node
+	{
+
+	};
 }
 
 int MyStack::top()
