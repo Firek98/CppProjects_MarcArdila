@@ -9,7 +9,7 @@ public:
 		node*next;
 	};
 	
-	node*first;
+	node*s;
 
 	MyStack();
 	MyStack(MyStack &m);
