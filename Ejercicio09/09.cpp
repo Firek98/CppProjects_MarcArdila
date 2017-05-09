@@ -150,13 +150,13 @@ void main()
 	c.push(6);
 	c.push(8);
 	c.push(9);
-	superMerge(a, b);
+	//superMerge(a, b);
 	std::cout << std::endl;
 	putHat(a, b);
 	std::cout << std::endl;
-	transformToQ(a);
+	auto ttq = transformToQ(a);
 	std::cout << std::endl;
-	isHat(b, c);
+	auto ih = isHat(b, c);
 	std::queue<char>d;
 	d.push('(');
 	d.push('(');
