@@ -20,6 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10.cpp" />
+    <ClCompile Include="MyList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F9916383-1226-4273-9F5E-01927F6F0093}</ProjectGuid>

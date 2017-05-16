@@ -1,4 +1,5 @@
-#include <list>
+#include "MyList.h"
+/*#include <list>
 #include <iostream>
 #include <queue>
 #include <set>
@@ -132,4 +133,15 @@ void main()
 	std::cout << std::endl;
 	std::list<int>palil{ 8,6,5,5,6,8 };
 	//palindrome(palil);
+}*/
+
+void main()
+{
+	MyList lista;
+	lista.push_front(5);
+	lista.push_front(4);
+	lista.push_front(9);
+
+	MyList list(lista);
+
 }
