@@ -1,6 +1,48 @@
 #include<deque>
 #include <iostream>
 #include <vector>
+#include <queue>
+
+std::priority_queue<int>superMergeP(std::priority_queue<int>a, std::priority_queue<int>b)
+{
+	std::priority_queue<int>copia1(a);
+	std::priority_queue<int>copia2(b);
+	std::priority_queue<int>aux;
+
+	while (!copia1.empty() && !copia2.empty())
+	{
+		if (!copia1.empty())
+		{
+			aux.push(copia1.top());
+			copia1.pop();
+		}
+		if (!copia2.empty())
+		{
+			aux.push(copia2.top());
+			copia2.pop();
+		}
+	}
+	return aux;
+}
+
+std::queue<int>concatQueue(std::queue<int>a, std::queue<int>b)
+{
+	std::queue<int>copia1(a);
+	std::queue<int>copia2(b);
+	std::queue<int>aux;
+
+	while (!copia1.empty())
+	{
+		aux.push(copia1.front());
+		copia1.pop();
+	}
+	while (!copia2.empty())
+	{
+		aux.push(copia2.front());
+		copia2.pop();
+	}
+}
+
 int main() {
 
 	float result;
@@ -80,4 +122,9 @@ int main() {
 		imprimvector = v2[i];
 		std::cout << imprimvector << " ";
 	}
+
+	// 3 - Implementar las siguientes funciones
+
+
+
 }

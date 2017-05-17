@@ -38,6 +38,7 @@ void ForwardList::pop_front()
 {
 	node *a = first;
 	first = a->next;
+	delete a;
 }
 
 
