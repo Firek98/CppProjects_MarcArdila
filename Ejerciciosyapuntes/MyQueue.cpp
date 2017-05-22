@@ -29,6 +29,29 @@ void MyQueue::push(int value)
 	}
 }
 
+void MyQueue::pop()
+{
+	node *a = first;
+	first = a->next;
+	delete a;
+	size--;
+}
+
+int MyQueue::tamaño()
+{
+	return size;
+}
+
+int MyQueue::front()
+{
+	return first->info;
+}
+
+
+int MyQueue::back()
+{
+	return last->info;
+}
 
 MyQueue::~MyQueue()
 {

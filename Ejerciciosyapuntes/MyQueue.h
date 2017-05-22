@@ -14,6 +14,10 @@ public:
 
 	MyQueue();
 	void push(int value);
+	void pop();
+	int tamaño();
+	int front();
+	int back();
 	~MyQueue();
 	
 };
