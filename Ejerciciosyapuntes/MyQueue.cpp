@@ -9,6 +9,17 @@ MyQueue::MyQueue()
 	size = 0;
 }
 
+MyQueue::MyQueue(MyQueue & q)
+{
+	node *aux = q.first;
+
+	while (q.size != size)
+	{
+		push(aux->info);
+		aux = aux->next;
+	}
+}
+
 void MyQueue::push(int value)
 {
 	node *a = new node();
@@ -35,6 +46,10 @@ void MyQueue::pop()
 	first = a->next;
 	delete a;
 	size--;
+	if (size == 0)
+	{
+		last == nullptr;
+	}
 }
 
 int MyQueue::tamaño()
@@ -55,4 +70,8 @@ int MyQueue::back()
 
 MyQueue::~MyQueue()
 {
+	while (size!=0)
+	{
+		pop();
+	}
 }

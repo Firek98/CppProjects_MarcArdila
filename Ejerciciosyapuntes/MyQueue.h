@@ -13,6 +13,7 @@ public:
 	int size;
 
 	MyQueue();
+	MyQueue(MyQueue &q);
 	void push(int value);
 	void pop();
 	int tamaño();
