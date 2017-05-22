@@ -147,12 +147,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Deque.cpp" />
+    <ClCompile Include="MyQueue.cpp" />
     <ClCompile Include="MyStack.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Tetris.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyQueue.h" />
     <ClInclude Include="MyStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
